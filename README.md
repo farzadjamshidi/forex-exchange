@@ -2,6 +2,7 @@
 
 Build a responsive web application which shows the historical and current rate for an FX pair.
 
+[a relative link](src/assets/design.png)
 
 The app must:
 Utilise the data from https://tradermade.com/ to display:
