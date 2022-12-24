@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnDestroy, OnInit } from '@angular/core';
+import { BasePage } from '../base-page';
 
 
 @Component({
@@ -7,8 +8,17 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrls: ['./home.page.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class HomePageComponent
+export class HomePageComponent extends BasePage implements OnInit, OnDestroy
 {
 
+  constructor(
+  )
+  {
+    super();
+  }
+
+  override ngOnInit(): void
+  {
+  }
 }
 
