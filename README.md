@@ -34,3 +34,5 @@ API Details
 3.	To get the currencies use the Live Currencies List REST API call (live_currencies_list)
 4.	To get the chart data use the Timeseries REST API call (timeseries)
 5.	To connect to the WebSocket follow instructions given here: https://tradermade.com/docs/streaming-data-api
+
+*For install and run please read [a relative link](Install.md)
